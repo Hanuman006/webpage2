@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jamalpur Sai Vishnu | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", "Segoe UI", sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 35px;
+            margin-bottom: 30px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+        }
+
+        .header {
+            text-align: center;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            color: #2d2d2d;
+        }
+
+        .profile-img {
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid #ffffff;
+            margin-bottom: 18px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
+
+        h3 {
+            font-weight: 500;
+            opacity: 0.85;
+        }
+
+        .college {
+            font-style: italic;
+            opacity: 0.8;
+            margin-top: 6px;
+        }
+
+        h2 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+        }
+
+        h2::after {
+            content: "";
+            width: 60%;
+            height: 4px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            position: absolute;
+            bottom: -6px;
+            left: 0;
+            border-radius: 10px;
+        }
+
+        p {
+            line-height: 1.8;
+            margin-bottom: 12px;
+            color: #555;
+        }
+
+        .tag-list li {
+            display: inline-block;
+            padding: 10px 16px;
+            border-radius: 50px;
+            margin: 8px 8px 0 0;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .tag-list li:nth-child(1) {
+            background: #ff6a00;
+        }
+
+        .tag-list li:nth-child(2) {
+            background: #00c9a7;
+        }
+
+        .tag-list li:nth-child(3) {
+            background: #3f8efc;
+        }
+
+        .tag-list li:nth-child(4) {
+            background: #9b5de5;
+        }
+
+        .tag-list li:nth-child(5) {
+            background: #f15bb5;
+        }
+
+        .tag-list li:nth-child(6) {
+            background: #f9c74f;
+            color: #333;
+        }
+
+        .projects li {
+            background: linear-gradient(135deg, #fdfbfb, #ebedee);
+            padding: 16px 20px;
+            border-radius: 14px;
+            margin-bottom: 12px;
+            font-weight: 500;
+            box-shadow: inset 0 0 0 2px #eaeaea;
+        }
+
+        .contact li {
+            margin-bottom: 12px;
+            font-size: 16px;
+        }
+
+        .contact strong {
+            color: #764ba2;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 26px;
+            }
+
+            .profile-img {
+                width: 140px;
+                height: 140px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card header">
+            <img src="vishnu.jpg" alt="Jamalpur Sai Vishnu" class="profile-img">
+            <h1>Jamalpur Sai Vishnu</h1>
+            <h3>BE 2nd Year Student</h3>
+            <p class="college">Vasavi College of Engineering</p>
+        </div>
+
+        <div class="card">
+            <h2>About Me</h2>
+            <p>
+                I'm a motivated individual who constantly works on self-growth.
+                I don't believe in staying stagnant and always aim to improve my
+                skills in technology, AI/Data Science, fitness, and communication.
+            </p>
+            <p>
+                I focus on building long-term career value and skills that genuinely
+                matter in the real world.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Skills</h2>
+            <ul class="tag-list">
+                <li>C Programming</li>
+                <li>Embedded Systems</li>
+                <li>Python</li>
+                <li>OOPs</li>
+                <li>Data Structures</li>
+                <li>Public Speaking</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Projects</h2>
+            <ul class="projects">
+                <li>🚦 Smart Traffic Management System</li>
+                <li>💧 IoT Based Irrigation System</li>
+                <li>🚆 Railway Management System</li>
+                <li>🌫️ IoT Based Air Quality Detector</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Internship</h2>
+            <p><strong>Schneider Electric</strong></p>
+        </div>
+
+        <div class="card">
+            <h2>Contact Info</h2>
+            <ul class="contact">
+                <li><strong>Email:</strong> saivishnu.jamalpur@gmail.com</li>
+                <li><strong>Phone:</strong> +91 63015 77514</li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
